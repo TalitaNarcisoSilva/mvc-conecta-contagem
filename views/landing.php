@@ -16,7 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS da página -->
-    <link rel="stylesheet" href="assets/css/landig.css">
+    <link rel="stylesheet" href="assets/css/landing.css">
 
 </head>
 
@@ -25,7 +25,7 @@
     <!-- Cabeçalho Menu/ Home-->
     <header>
         <div class="logo">
-            <img src="img/logo123.png" alt="Logo">
+            <img src="assets/img/logo123.png" alt="Logo da Conecta Contagem">
         </div>
 
         <button class="menu-toggle">
@@ -560,7 +560,7 @@
             <div class="footer-col">
 
                 <!-- Logo -->
-                <img src="img/logo 04.png" alt="Logo Conecta Contagem" class="logo-footer">
+                <img src="assets/img/logo 04.png" alt="Logo Conecta Contagem" class="logo-footer">
 
                 <!-- Texto -->
                 <p>
