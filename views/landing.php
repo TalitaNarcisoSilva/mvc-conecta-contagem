@@ -55,7 +55,12 @@
             <a href="#">A</a>
             <a href="#">A+</a>
 
-            <button class="botaoEntrar">Entrar</button>
+            <!-- <button class="botaoEntrar">Entrar</button> -->
+
+            <a href="index.php?page=login" class="botaoEntrar">
+                <i class="bi bi-box-arrow-in-right me-1"></i>
+                Entrar
+            </a>
 
         </div>
 
@@ -109,7 +114,12 @@
                             <p>Tem um evento em Contagem? Cadastre e divulgue!</p>
                         </div>
                     </div>
-                    <a href="./cadastrar-evento.html" class="btn-cadastrar-evento text-decoration-none"> Cadastrar </a>
+                    <!-- <a href="./cadastrar-evento.html" class="btn-cadastrar-evento text-decoration-none"> Cadastrar </a> -->
+                    <a href="index.php?page=login" class="btn-cadastrar-evento text-decoration-none">
+                        <i class="bi bi-box-arrow-in-right me-1"></i>
+                        Cadastrar
+                    </a>
+
                 </div>
             </div>
 
