@@ -46,8 +46,8 @@
 
             <ul class="d-flex list-unstyled">
 
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Eventos</a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="views/evento.php">Eventos</a></li>
 
 
 
