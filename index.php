@@ -35,46 +35,44 @@
 
     ?>
 
-    <!-- Cabeçalho -->
-    <header class="bg-dark text-white py-3">
-        <div class="container">
+    <header>
+        <div class="logo">
+            <!--<img src="img/logo123.png" alt="Logo">-->
+            <img src="assets/img/logo123.png" alt="Logo da Conecta Contagem">
+        </div>
 
-            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
 
-                <h1 class="h3 mb-3 mb-md-0">
-                    <a href="index.php?page=home" class="text-white text-decoration-none">
-                        Sistema de Cadastros
-                    </a>
-                </h1>
+        <nav>
 
-                <!-- Menu principal -->
-                <nav class="nav">
+            <ul class="d-flex list-unstyled">
 
-                    <a href="index.php?page=produtos"
-                        class="nav-link <?= $page === 'produtos' ? 'text-white fw-bold' : 'text-white-50' ?>">
-                        Produtos
-                    </a>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Eventos</a></li>
 
-                    <a href="index.php?page=clientes"
-                        class="nav-link <?= $page === 'clientes' ? 'text-white fw-bold' : 'text-white-50' ?>">
-                        Clientes
-                    </a>
 
-                    <a href="index.php?page=funcionarios"
-                        class="nav-link <?= $page === 'funcionarios' ? 'text-white fw-bold' : 'text-white-50' ?>">
-                        Funcionários
-                    </a>
 
-                    <a href="index.php?page=landing"
-                        class="nav-link <?= $page === 'landing' ? 'text-white fw-bold' : 'text-white-50' ?>">
-                        Sair
-                    </a>
+            </ul>
 
-                </nav>
+        </nav>
 
-            </div>
+
+
+        <div class="menu-direita">
+
+            <a href="#">A-</a>
+            <a href="#">A</a>
+            <a href="#">A+</a>
+
+            <!-- <button class="botaoEntrar">Entrar</button> -->
+
+            <a href="index.php?page=login" class="botaoEntrar">
+                <i class="bi bi-box-arrow-in-right me-1"></i>
+                Sair
+            </a>
 
         </div>
+
+
     </header>
 
     <!-- Conteúdo carregado pelas rotas -->
@@ -87,12 +85,120 @@
 
     </main>
 
-    <!-- Rodapé -->
-    <footer class="bg-dark text-white text-center py-3 mt-5">
+    <!-- ---------------------------------------- Footer  ----------------------------- -->
+    <footer class="rodape">
 
-        <p class="mb-0">
-            Sistema MVC de Cadastros
-        </p>
+        <!-- Container principal -->
+        <div class="containerRodape">
+
+            <!-- ================= Logo ================= -->
+            <div class="footer-col">
+
+                <!-- Logo -->
+                <img src="assets/img/logo 04.png" alt="Logo Conecta Contagem" class="logo-footer">
+
+                <!-- Texto -->
+                <p>
+                    Informação que conecta você ao que
+                    Contagem tem de melhor.
+                </p>
+
+                <!-- Redes sociais -->
+
+                <div class="redes">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- ================= Navegue ================= -->
+
+            <div class="footer-col">
+
+                <h3>Navegue</h3>
+
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Comércio</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Notícias</a></li>
+                </ul>
+
+            </div>
+
+            <!-- ================= Institucional ================= -->
+
+            <div class="footer-col">
+
+                <h3>Institucional</h3>
+
+                <ul>
+                    <li><a href="#">Sobre o projeto</a></li>
+                    <li><a href="#">Como funciona</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                </ul>
+
+            </div>
+
+            <!-- ================= Legal ================= -->
+
+            <div class="footer-col">
+
+                <h3>Legal</h3>
+
+                <ul>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Acessibilidade</a></li>
+                </ul>
+
+            </div>
+
+            <!-- ================= Newsletter ================= -->
+
+            <div class="footer-col newsletter-col">
+
+                <h3>Receba novidades</h3>
+
+                <div class="newsletter">
+
+                    <input type="email" placeholder="Digite seu e-mail">
+
+                    <button>
+                        ➜
+                    </button>
+
+                </div>
+
+                <p>
+                    Fique por dentro das novidades da cidade.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+
+        <div class="footer-copy">
+
+            © 2025 Conecta Contagem. Todos os direitos reservados.
+
+        </div>
 
     </footer>
 

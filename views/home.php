@@ -1,3 +1,6 @@
+<!-- CSS da página -->
+<link rel="stylesheet" href="assets/css/evento.css">
+
 <div class="container mt-5">
 
     <!-- Título -->
