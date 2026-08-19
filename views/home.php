@@ -16,7 +16,7 @@
     <!-- Cards -->
     <div class="row g-4">
 
-        <!-- Produtos -->
+        <!-- Eventos -->
         <div class="col-md-4">
 
             <div class="card h-100 shadow-sm">
@@ -26,16 +26,16 @@
                     <i class="bi bi-box-seam fs-1 text-primary"></i>
 
                     <h5 class="card-title mt-3">
-                        Produtos
+                        Gerenciar Eventos
                     </h5>
 
                     <p class="card-text text-muted">
-                        Cadastre e gerencie os produtos do sistema.
+                        Vizualize seus eventos.
                     </p>
 
                     <a href="index.php?page=produtos"
                         class="btn btn-primary">
-                        Acessar produtos
+                        Acessar Eventos
                     </a>
 
                 </div>
@@ -45,7 +45,7 @@
         </div>
 
 
-        <!-- Clientes -->
+        <!-- Participantes -->
         <div class="col-md-4">
 
             <div class="card h-100 shadow-sm">
@@ -59,7 +59,7 @@
                     </h5>
 
                     <p class="card-text text-muted">
-                        Cadastre e gerencie os clientes do sistema.
+                        Vizualize os participantes do seu evento.
                     </p>
 
                     <a href="index.php?page=clientes"
@@ -74,7 +74,7 @@
         </div>
 
 
-        <!-- Funcionários -->
+        <!-- Noticias -->
         <div class="col-md-4">
 
             <div class="card h-100 shadow-sm">
@@ -84,16 +84,16 @@
                     <i class="bi bi-person-badge fs-1 text-primary"></i>
 
                     <h5 class="card-title mt-3">
-                        Funcionários
+                        Noticias
                     </h5>
 
                     <p class="card-text text-muted">
-                        Cadastre e gerencie os funcionários do sistema.
+                       Publique avisos e noticias sobre o seu evento.
                     </p>
 
                     <a href="index.php?page=funcionarios"
                         class="btn btn-primary">
-                        Acessar funcionários
+                        Acessar Noticias
                     </a>
 
                 </div>

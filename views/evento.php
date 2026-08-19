@@ -113,5 +113,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
 <!-- Script da página -->
-<script src="assets/js/funcionario.js"></script>
+<script src="assets/js/evento.js"></script>
 

@@ -47,7 +47,7 @@
             <ul class="d-flex list-unstyled">
 
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="index.php?page=eventos">Eventos</a></li>
+                <li><a href="index.php?page=eventos"> Eventos </a></li>
 
 
 
